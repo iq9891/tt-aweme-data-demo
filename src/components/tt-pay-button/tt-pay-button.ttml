@@ -1,0 +1,15 @@
+<pay-button-sdk
+  mode="{{config.model}}"
+  order-status="{{config.orderStatus}}"
+  order-id="{{config.orderId}}"
+  goods-id="{{config.goodsId}}"
+  goods-type="{{config.goodsType}}"
+  refund-id="{{config.refundId}}"
+  biz-line="{{config.bizLine}}"
+  marketing-ready="{{config.marketingReady}}"
+  style="{{buttonStyle}}"
+  bind:refund="onError"
+  bind:getgoodsinfo="onGoodsInfo"
+  bind:placeorder="onPlaceorder"
+  bind:pay="onPay"
+/>

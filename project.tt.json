@@ -1,0 +1,13 @@
+{
+  "miniprogramRoot": "./dist",
+  "projectname": "tt-pay-button-sdk-demo",
+  "description": "pay-button-sdk 调试示例",
+  "appid": "tt666510d8f955d60601",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "postcss": false,
+    "minified": false
+  },
+  "compileType": "miniprogram"
+}
