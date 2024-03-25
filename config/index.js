@@ -1,4 +1,3 @@
-const path = require("path");
 
 const config = {
   projectName: "taroDemo",
@@ -12,16 +11,6 @@ const config = {
   sourceRoot: "src",
   outputRoot: "dist",
   plugins: ['@fe6/taro-platform-toutiao'],
-  defineConstants: {},
-  copy: {
-    patterns: [
-      // {
-      //   from: "src/tt/package.json",
-      //   to: "dist/package.json",
-      // },
-    ],
-    options: {},
-  },
   framework: 'vue3',
   compiler: {
     type: 'webpack5',
@@ -45,23 +34,6 @@ const config = {
         config: {
           limit: 1024, // 设定转换尺寸上限
         },
-      },
-      cssModules: {
-        enable: false, // 默认为 false，如需使用 css modules 功能，则设为 true
-        config: {
-          namingPattern: "module", // 转换模式，取值为 global/module
-          generateScopedName: "[name]__[local]___[hash:base64:5]",
-        },
-      },
-    },
-  },
-  h5: {
-    publicPath: "/",
-    staticDirectory: "static",
-    postcss: {
-      autoprefixer: {
-        enable: true,
-        config: {},
       },
       cssModules: {
         enable: false, // 默认为 false，如需使用 css modules 功能，则设为 true

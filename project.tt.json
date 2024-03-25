@@ -1,8 +1,8 @@
 {
   "miniprogramRoot": "./dist",
-  "projectname": "tt-pay-button-sdk-demo",
-  "description": "pay-button-sdk 调试示例",
-  "appid": "tt666510d8f955d60601",
+  "projectname": "aweme-data",
+  "description": "aweme-data 调试示例",
+  "appid": "tt89dcff6116e3a60a01",
   "setting": {
     "urlCheck": true,
     "es6": false,

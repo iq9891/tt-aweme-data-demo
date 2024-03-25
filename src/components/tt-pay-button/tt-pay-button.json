@@ -1,6 +1,0 @@
-{
-  "component": true,
-  "usingComponents": {
-    "pay-button-sdk": "ext://industry/pay-button"
-  }
-}
