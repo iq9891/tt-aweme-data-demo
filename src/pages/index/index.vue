@@ -1,8 +1,7 @@
 <template>
-  <div>
-    <div style="width:20px;height:20px;background:red;">ddd</div>
+  <view>
     a<aweme-data aweme-id="50230647257" type="avatar" @error="onAwemeDataError" />a
-  </div>
+  </view>
 </template>
 
 <script lang="ts" setup>
